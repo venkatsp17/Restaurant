@@ -65,12 +65,15 @@ class _MenuState extends State<Menu> {
     for(int i=0;i<count.length;i++){
       sum += (count[items[i]["id"]]!*items[i]['Price']) as int;
       setState(() {
-        orders.add({
-          'Id': items[i]["id"],
-          'Item Price':items[i]['Price'],
-          'Item Name': items[i]['Fname'],
-          'Count': count[items[i]["id"]],
-        });
+        if(count[items[i]["id"]]!=0){
+          orders.add({
+            'Id': items[i]["id"],
+            'Item Price':items[i]['Price'],
+            'Item Name': items[i]['Fname'],
+            'Count': count[items[i]["id"]],
+            'Tprice': (count[items[i]["id"]]!*items[i]['Price']),
+          });
+        }
       });
     }
     return '₹${sum.toString()}';
@@ -169,7 +172,6 @@ class _MenuState extends State<Menu> {
                   },
                   child: Container(
                     decoration: BoxDecoration(
-
                         color: color2,
                       borderRadius: BorderRadius.circular(8)
                     ),
@@ -392,7 +394,7 @@ class _MenuState extends State<Menu> {
                               ),
                             ),
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context)=>Payment()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=>Payment(data: orders,)));
                             },
                           ),
                         ],
