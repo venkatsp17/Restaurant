@@ -232,7 +232,7 @@ class _MenuState extends State<Menu> {
                     borderRadius: BorderRadius.circular(12)
                   ),
                   
-                  height: height * 75,
+                  height: height * 70,
                   child: ListView.builder(
                       itemCount: results.length,
                       itemBuilder: (BuildContext context, int index) {

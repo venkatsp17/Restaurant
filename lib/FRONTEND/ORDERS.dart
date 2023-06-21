@@ -75,7 +75,7 @@ class _OrdersState extends State<Orders> {
       body:Column(
         children: [
           SizedBox(
-            height: height*90,
+            height: height*89,
             width: width*100,
             child: ListView.builder(
               itemCount: details.length,

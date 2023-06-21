@@ -47,7 +47,6 @@ class _PaymentState extends State<Payment> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         // crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-
           Container(
             width: width*100,
             color: Colors.white,
