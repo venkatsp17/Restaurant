@@ -1,16 +1,22 @@
-# food
+# Restaurant App
 
-A new Flutter project.
+Restaurant App is a flutter application which manages orders. Mainly used in college canteens to avoid unnecessary crowd.
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+Frontent - Flutter\
+Backend - Express JS\
+Database - MySql
 
-A few resources to get you started if this is your first Flutter project:
+## Role
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Frontend
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Visuals
+
+<img width="333" alt="Screenshot 2023-11-06 at 7 37 04 PM" src="https://github.com/venkatsp17/Restaurant/assets/109540044/98598b9f-3707-48d0-948b-c952fca24013">
+<img width="333" alt="Screenshot 2023-11-06 at 7 37 28 PM" src="https://github.com/venkatsp17/Restaurant/assets/109540044/0ca6b378-4736-4049-b175-fbe1d8ce2aad">
+<img width="333" alt="Screenshot 2023-11-06 at 7 37 39 PM" src="https://github.com/venkatsp17/Restaurant/assets/109540044/dad586cf-5bc3-4cfd-99b3-3288b49e8ebf">
+
+
+
